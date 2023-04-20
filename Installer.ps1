@@ -1,7 +1,7 @@
 Write-Host "Installing Passcore"
 Write-Host "Creating Directory"
 
-$directory = "C:\passcore"
+$directory = "D:\Projects\PasscoreV2"
 New-Item -ItemType directory -Path $directory
 
 Set-Location $directory
